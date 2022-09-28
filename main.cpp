@@ -7,7 +7,7 @@ int main() {
   fstream MyFile("filename.txt");
 
   // Write to the file
-  MyFile << "Files can be tricky, but it is fun enough! \n";
+  MyFile << "Files can be tricky, but it is fun enough, for sure! \n";
 
   // Close the file
   MyFile.close();
